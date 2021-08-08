@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 12px;
+    width: 100%;
+}
+
+.section__table {
+    padding: 14px 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+.table__interactive {
+    margin: 20px 0;
+    position: relative;
+}
+
+.section__voice {
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    background-color: #181818;
+    padding: 17px 0;
+}
+
+.table__title {
+    margin-bottom: 33px;
+    color: #0B64FE;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 38px;
+}
+
+.table__text {
+    color: #181818;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27.2px;
+}
+
+.table__img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.table__img--top {
+    transform: translate(-1.5px, 7px);
+}
+
+.table__button {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 25%;
+    left: 25%;
+    width: 50%;
+}
+
+.button {
+    padding: 0;
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    background-color: #A6FFFF;
+    border: none;
+    font-family: "Ubuntu", sans-serif;
+    color: #000;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.voice__title {
+    margin-bottom: 33px;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 34px;
+    width: 80%;
+}
+
+.voice__description {
+    margin-bottom: 20px;
+}
+
+.voice__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.2px;
+}
+
+.voice__interactive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.voice__interface {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.interface__img {
+    width: 120%;
+    object-fit: cover;
+}
+
+.voice__hello {
+    text-transform: uppercase;
+}
+
+.hello__text {
+    font-weight: 900;
+    font-size: 39px;
+}
+
+.hello__text--big {
+    font-size: 61px;
+}
+
+.hello__text--middle  {
+    font-size: 49px;
+}
