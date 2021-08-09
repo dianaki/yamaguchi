@@ -27,21 +27,14 @@ btnUp.addEventListener('click', () => {
     btnUp.setAttribute('disabled', true);
 });
 
-const girlAppears = () => {
-    gsap.to(girl, {
-        duration: 2,
-        scale: 1,
-        y: '110%',
-    })
-}
-
 const girlAnimation = () => {
     gsap.timeline({
-    repeat: -1,
-    defaults: {
-        duration: 2
+        repeat: -1,
+        defaults: {
+            duration: 2,
+            scale: 1
         }
-    }) 
+    })
     .to(girl, {
         x: 0,
         y: -20,
@@ -81,7 +74,7 @@ const girlAnimation = () => {
         x: 0, 
         y: 0,
         z: 0,
-    });
+    })
 }
 
 const portalAnimation = () => {
@@ -98,6 +91,5 @@ const portalAnimation = () => {
     })
 }
 
-girlAppears();
 girlAnimation();
 portalAnimation();
