@@ -29,7 +29,6 @@ h1, p {
     font-family: "Ubuntu", sans-serif;
 }
 
-
 .table__interactive {
     margin: 20px 0;
     position: relative;
@@ -63,14 +62,14 @@ h1, p {
 }
 
 .table__img--top {
-    transform: translate(-1.5px, 14px);
+    transform: translate(-3px, 15px);
 }
 
 .table__button {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    bottom: 25%;
+    bottom: 10%;
     left: 25%;
     width: 50%;
 }
@@ -104,7 +103,7 @@ h1, p {
 }
 
 .voice__description {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .voice__text {
@@ -125,6 +124,14 @@ h1, p {
     margin-bottom: 30px;
 }
 
+.interactive__girl {
+    transform: translate(0, 110%) scale(0);
+}
+
+.interactive__portal {
+    transform: scale(0);
+}
+
 .voice__interface {
     display: flex;
     justify-content: center;
@@ -141,6 +148,7 @@ h1, p {
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
+    z-index: 100;
 }
 
 .hello__text {
@@ -165,6 +173,7 @@ h1, p {
     .table__button {
         left: 35%;
         width: 30%;
+        bottom: 20%;
     }
 
     .hello__text {
@@ -255,7 +264,7 @@ h1, p {
     }
 
     .table__button {
-        bottom: 35%;
+        bottom: 25%;
     }
 
     .voice__container {
@@ -320,7 +329,7 @@ h1, p {
     }
 
     .table__button {
-        bottom: 25%;
+        bottom: 13%;
         left: 25%;
         width: 50%;
     }
